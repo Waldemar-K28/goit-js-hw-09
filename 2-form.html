@@ -7,9 +7,9 @@
     <title>Form</title>
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-ClgXQpqk.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-DgfmXwy1.css">
   </head>
-  <body>
+  <body class="page-form">
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
@@ -17,15 +17,15 @@
       </div>
 
       <form class="feedback-form" autocomplete="off" novalidate>
-        <label>
+        <label class="form-label">
           Email
-          <input type="email" name="email" autofocus />
+          <input class="form-text" type="email" name="email" autofocus />
         </label>
-        <label>
+        <label class="form-label">
           Message
-          <textarea name="message" rows="8"></textarea>
+          <textarea class="form-text" name="message" rows="8"></textarea>
         </label>
-        <button type="submit">Submit</button>
+        <button class="button" type="submit">Submit</button>
       </form>
     </main>
   </body>
